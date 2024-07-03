@@ -1,7 +1,128 @@
 body {
-	background-color: #ccc;
-	color: #333;
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main ul li {
+  margin: 0 15px 10px;
+  fzont-size: 1.6em;
+  fwight: bold;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.projects section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.projects section h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 15px;
+}
+
+footer nav ul li a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-weight: bold;
 }
